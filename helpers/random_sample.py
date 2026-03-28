@@ -7,7 +7,7 @@ PAPERS_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "papers")
 
 def get_random_sample(sample_percentage: int):
     """Get a random sample of papers from the 'papers' folder with same ratio of relevant to non-relevant papers."""
-    local_files = [f for f in os.listdir(PAPERS_DIR) if os.path.isfile(os.path.join(PAPERS_DIR, f))]
+    local_files = [f for f in os.listdir(PAPERS_DIR) if os.path.isfile(os.path.join(PAPERS_DIR, f)) and f.endswith(".pdf")]
 
     # Get relevance from results.xlsx
     if os.path.exists(os.path.join(os.path.dirname(os.path.dirname(__file__)), "results.xlsx")):
