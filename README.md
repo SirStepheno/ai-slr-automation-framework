@@ -4,7 +4,7 @@ This repository provides a **framework for automating key steps of a Systematic 
 
 The implementation is designed to be **domain-agnostic**: users define their own research focus by modifying system prompts, making the framework adaptable to any research field.
 
-This repository accompanies the methodology proposed in the thesis (see paper: TODO ADD PAPER LINK), which introduces an AI-augmented SLR approach.
+This repository accompanies the methodology proposed in the thesis (see [`Research Topics`](docs/Research_Topics_Final.pdf)), which introduces an AI-augmented SLR approach.
 
 ---
 
